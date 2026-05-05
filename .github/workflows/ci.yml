@@ -1,5 +1,10 @@
 name: CI
 
+on:
+
+  push:
+
+
 jobs:
   build-and-push:
     runs-on: ubuntu-latest   #GitHub Runner
